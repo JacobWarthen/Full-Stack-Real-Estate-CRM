@@ -1,0 +1,45 @@
+.overlay {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.05);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+}
+
+.modal {
+    width: 500px;
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: rgba(0,0,0,0.05) 0 6px 24px 0, rgba(0,0,0,0.08) 0 0 0 1px;
+    color: black;
+    font-size: 15px;
+}
+
+.modal .form-title-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.modal .form-title-container button {
+    border: none;
+    background-color: transparent;
+}
+
+.modal .form-title-container button:active {
+    color: rgb(255, 50, 50);
+}
+
+.modal form {
+    display: flex;
+    flex-direction: column;
+}
+
+.modal label {
+    font-size: 13px;
+}
